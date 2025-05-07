@@ -1,0 +1,11 @@
+langchain
+langchain_community
+google-generativeai
+langchain_google_genai
+transformers
+streamlit
+tiktoken
+unstructured
+pdf2image
+pdfminer
+PyPDF2

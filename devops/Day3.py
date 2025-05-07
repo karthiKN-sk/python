@@ -63,12 +63,26 @@
 
 # Loop Through Dict
 
-person = {
-    'name': "Karthi",
-    'age': 30,
-    'city': 'Chennai'
-}
+# person = {
+#     'name': "Karthi",
+#     'age': 30,
+#     'city': 'Chennai'
+# }
 
 
-for key,value in person.items():
-    print (f"{key}:{value}")
+# for key,value in person.items():
+#     print (f"{key}:{value}")
+
+
+user_input = int(input("Enter an integer: "))
+
+
+if user_input % 2 == 0:
+    print(f"{user_input} is an even number")
+else:
+    print(f"{user_input} is an odd number.")
+
+
+print("Number from 1 to", user_input)
+for i in range(1, user_input+ 1):
+    print(i)

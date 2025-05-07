@@ -1,7 +1,11 @@
-### Machine Learning vs Deep Learning 
+### Artificial Intelligence
 
-#-> Generally Deep Learning is a subset of Machine Learning
+#-> Generally Deep Learning is a subset of Neural Network
+#-> Generally Neural Network is a subset of Machine Learning
+#-> Generally Machine Learning is a subset of Artificial Intelligence
 
+
+#-> Generally All Combined together as Artificial Intelligence
 
 # Artificial Intelligence             Machine Learning            Neural Network            Deep Learning 
            # AI                 >         ML                >       NN             >       DL
@@ -79,7 +83,7 @@
 #                        +
 #                 [ Task-Specific Labeled Data (e.g., QA, Chat, Summarization) ]
 #                        ↓
-#                 [ Continue Training (usually with smaller LR) ]
+#                 [ Continue Training (usually with smaller LR) ] Learning Rate
 #                        ↓
 #                 [ Task-Specific LLM ]
 
@@ -116,6 +120,16 @@
         #   │ LLM for Specific Tasks     │
         #   └────────────────────────────┘
 
+
+
+
+
+
+
+
+
+
+
 ### Transformers vs LLMs
 
 #   Feature    |         Transformers                            |        LLMs (Large Language Models)
@@ -125,6 +139,16 @@
 #  Examples    | Transformer, BERT, GPT, T5 (architectures)      | GPT-3, GPT-4, PaLM, Claude, LLaMA (trained models)
 #  Size        | Can be small or large                           | Always large (typically billions of parameters)
 #  Used in     | Language, vision, audio, time-series            | Primarily language tasks
+
+
+
+
+
+
+
+
+
+
 
 
 ### Retrieval-Augmented Generation (RAG)
