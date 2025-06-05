@@ -1,0 +1,58 @@
+Artificial Intelligence (AI)
+│
+├──► Machine Learning (ML)
+│   - Algorithms that learn from data to make decisions/predictions
+│   │
+│   ├──► Supervised Learning
+│   │   - Examples: Regression, Classification
+│   │   - Algorithms: Linear Regression, SVM, Decision Trees, etc.
+│   │
+│   ├──► Unsupervised Learning
+│   │   - Examples: Clustering, Dimensionality Reduction
+│   │   - Algorithms: K-Means, PCA, DBSCAN, etc.
+│   │
+│   ├──► Semi-Supervised Learning
+│   │   - Combines small labeled data + large unlabeled data
+│   │
+│   └──► Reinforcement Learning (RL)
+│       - Agents learn via rewards/punishments (e.g., game-playing)
+│       - Algorithms: Q-Learning, Deep Q-Networks, PPO, etc.
+│
+├──► Deep Learning (DL)
+│   - Subset of ML using neural networks with many layers
+│   - Requires large datasets and compute
+│   │
+│   ├──► Feedforward Neural Networks (FNNs)
+│   ├──► Convolutional Neural Networks (CNNs)
+│   │   - Used in: **Computer Vision**
+│   ├──► Recurrent Neural Networks (RNNs), LSTMs
+│   │   - Used in: **Time series, NLP**
+│   ├──► Transformers
+│   │   - Used in: **NLP, Vision, Multimodal Tasks**
+│   └──► Generative Models
+│       - GANs, VAEs, Diffusion Models
+│
+├──► Specialized Domains (Applications of AI/ML/DL)
+│   │
+│   ├──► Computer Vision
+│   │   - Image Classification, Object Detection, Segmentation
+│   │   - Tools: CNNs, Vision Transformers
+│   │
+│   ├──► Natural Language Processing (NLP)
+│   │   - Text Classification, Translation, Chatbots, LLMs
+│   │   - Tools: RNNs, Transformers (e.g., GPT, BERT)
+│   │
+│   ├──► Speech Recognition & Synthesis
+│   │   - ASR (Automatic Speech Recognition), TTS (Text to Speech)
+│   │
+│   ├──► Robotics
+│   │   - Combines CV, RL, Control Systems
+│   │
+│   └──► Multimodal AI
+│       - Combines text, image, video, audio (e.g., GPT-4o)
+│
+└──► Emerging Fields
+    ├── Causal AI
+    ├── Explainable AI (XAI)
+    ├── Neuromorphic Computing
+    └── AI Safety & Ethics
