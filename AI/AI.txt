@@ -16,21 +16,21 @@
                 └── Deep Learning (DL)
 
 
- +------------------------+
- | Artificial Intelligence|
- +------------------------+
-            |
- +------------------------+
- |   Machine Learning     |
- +------------------------+
-            |
- +------------------------+
- |   Neural Networks      |
- +------------------------+
-            |
- +------------------------+
- |   Deep Learning        |
- +------------------------+
+        +------------------------+
+        | Artificial Intelligence|
+        +------------------------+
+                    |
+        +------------------------+
+        |   Machine Learning     |
+        +------------------------+
+                    |
+        +------------------------+
+        |   Neural Networks      |
+        +------------------------+
+                    |
+        +------------------------+
+        |   Deep Learning        |
+        +------------------------+
 
 
 
@@ -56,69 +56,69 @@
 
 
 
-> LLM = Large Language Model
+LLM = Large Language Model
 
-> Creating an LLM = Pretraining + FineTuning
+        > Creating an LLM = Pretraining + FineTuning
 
-> PreTraining -> Training on a large, diverse dataset
-                 Teach the model general language understanding using a massive, unlabeled corpus.
+        > PreTraining -> Training on a large, diverse dataset
+                        Teach the model general language understanding using a massive, unlabeled corpus.
 
-                  [ Massive Unlabeled Text Data ] 
-                             ↓
-                  [ Tokenization (e.g., BPE) ]
-                             ↓
-                  [ Transformer Architecture (e.g., GPT, BERT) ]
-                             ↓
-                  [ Masked Language Modeling (BERT) or Causal LM (GPT) ]
-                             ↓
-                  [ Pretrained LLM ]
+                        [ Massive Unlabeled Text Data ] 
+                                    ↓
+                        [ Tokenization (e.g., BPE) ]
+                                    ↓
+                        [ Transformer Architecture (e.g., GPT, BERT) ]
+                                    ↓
+                        [ Masked Language Modeling (BERT) or Causal LM (GPT) ]
+                                    ↓
+                        [ Pretrained LLM ]
 
- > Data: Wikipedia, books, Common Crawl, etc.
- > Task: Predict the next word (GPT) or masked word (BERT).
- > Output: A general-purpose language model.
+        > Data: Wikipedia, books, Common Crawl, etc.
+        > Task: Predict the next word (GPT) or masked word (BERT).
+        > Output: A general-purpose language model.
 
- > FineTuning -> Refinement by training on narrower dataset, specfic to a particular task or domain
-                 Specialize the model on a specific task or dataset.
-                 [ Pretrained LLM ]
-                        +
-                 [ Task-Specific Labeled Data (e.g., QA, Chat, Summarization) ]
-                        ↓
-                 [ Continue Training (usually with smaller LR) ] Learning Rate
-                        ↓
-                 [ Task-Specific LLM ]
+        > FineTuning -> Refinement by training on narrower dataset, specfic to a particular task or domain
+                        Specialize the model on a specific task or dataset.
+                        [ Pretrained LLM ]
+                                +
+                        [ Task-Specific Labeled Data (e.g., QA, Chat, Summarization) ]
+                                ↓
+                        [ Continue Training (usually with smaller LR) ] Learning Rate
+                                ↓
+                        [ Task-Specific LLM ]
 
- > Chatbot → fine-tune on dialogue data
- > Medical QA → fine-tune on health datasets
- > Coding assistant → fine-tune on GitHub code
+        > Chatbot → fine-tune on dialogue data
+        > Medical QA → fine-tune on health datasets
+        > Coding assistant → fine-tune on GitHub code
 
 
 
  > Pretraining + FineTuning Schematic
 
 
-       Data                  |          |   has Basic Capabilites      |                |      Pretained LLM trained on labelled dataset     
-                             |          |                              |                | 
-   Internet text,books       | Train    |     pretained LLM            |   Train        |       *Classification
-   media, research articles  |--------> |   (foundation model)         | ------------>  |       *Summarization
-                             |          |                              | Labelled       |       *Translation
-   Raw unlabeled text        |          |  LLM pretrained on unlabeled |  Dataset       |       *Personal Assisstant
-   Trillions of words        |          |  text data                   |                |   -> Finetuned LLM
+            Data                  |          |   has Basic Capabilites      |                |      Pretained LLM trained on labelled dataset     
+                                  |          |                              |                | 
+        Internet text,books       | Train    |     pretained LLM            |   Train        |       *Classification
+        media, research articles  |--------> |   (foundation model)         | ------------>  |       *Summarization
+                                  |          |                              | Labelled       |       *Translation
+        Raw unlabeled text        |          |  LLM pretrained on unlabeled |  Dataset       |       *Personal Assisstant
+        Trillions of words        |          |  text data                   |                |   -> Finetuned LLM
 
-            ┌─────────────────────────────┐
-            │     Massive Text Corpus     │
-            └────────────┬────────────────┘
-                         ▼
-               [ Pretraining Phase ]
-                         ▼
-               ┌────────────────────┐
-               │ General-Purpose LLM│
-               └────────┬───────────┘
-                        ▼
-              [ Fine-Tuning Phase ]
-                        ▼
-           ┌────────────────────────────┐
-           │ LLM for Specific Tasks     │
-           └────────────────────────────┘
+                                            ┌─────────────────────────────┐
+                                            │     Massive Text Corpus     │
+                                            └────────────┬────────────────┘
+                                                        ▼
+                                            [ Pretraining Phase ]
+                                                        ▼
+                                                ┌────────────────────┐
+                                                │ General-Purpose LLM│
+                                                └────────┬───────────┘
+                                                        ▼
+                                            [ Fine-Tuning Phase ]
+                                                        ▼
+                                            ┌────────────────────────────┐
+                                            │ LLM for Specific Tasks     │
+                                            └────────────────────────────┘
 
 
 
